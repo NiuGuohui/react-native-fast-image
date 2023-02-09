@@ -26,7 +26,7 @@ import java.util.Map;
 
 import javax.annotation.Nonnull;
 
-class FastImageViewWithUrl extends AppCompatImageView {
+public class FastImageViewWithUrl extends AppCompatImageView {
     private boolean mNeedsReload = false;
     private ReadableMap mSource = null;
     private Drawable mDefaultSource = null;
